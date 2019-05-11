@@ -149,13 +149,12 @@ install: check-packages $(host_prefix)/share/config.site
 
 
 download-one: check-sources $(all_sources)
+	
 
-download-osx:
-	@$(MAKE) -s HOST=x86_64-apple-darwin11 download-one
 download-linux:
 	@$(MAKE) -s HOST=x86_64-unknown-linux-gnu download-one
 download-win:
 	@$(MAKE) -s HOST=x86_64-w64-mingw32 download-one
-download: download-osx download-linux download-win
+download: download-linux download-win
 
-.PHONY: install cached download-one download-osx download-linux download-win download check-packages check-sources
+.PHONY: install cached download-one download-linux download-win download check-packages check-sources
