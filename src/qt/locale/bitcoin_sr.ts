@@ -190,7 +190,7 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
+        <source>Send coins to a Newcoin address</source>
         <translation>Пошаљите новац на bitcoin адресу</translation>
     </message>
     <message>
@@ -222,8 +222,8 @@
         <translation>Трака са картицама</translation>
     </message>
     <message>
-        <source>&amp;About Bitcoin Core</source>
-        <translation>O Bitcoin Coru</translation>
+        <source>&amp;About Newcoin Core</source>
+        <translation>O Newcoin Coru</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -321,8 +321,8 @@
         <translation>верзија</translation>
     </message>
     <message>
-        <source>About Bitcoin Core</source>
-        <translation>O Bitcoin Coru</translation>
+        <source>About Newcoin Core</source>
+        <translation>O Newcoin Coru</translation>
     </message>
     <message>
         <source>Usage:</source>
